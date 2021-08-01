@@ -93,7 +93,7 @@ const DetailsModel = ({ show, onClose, item, updateList, list }) => {
                                     </div>
                                     <div className="mc-description">
                                         <div className="row mt-3">
-                                            <div className="col-half">
+                                            <div>
                                                 <div className="input-group">
                                                     <div className="col-half">
                                                         <input

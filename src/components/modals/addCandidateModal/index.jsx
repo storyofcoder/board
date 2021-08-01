@@ -137,7 +137,7 @@ const AddModal = ({ show, onClose, updateList, list, stages }) => {
                     </div>
                 </div>
                 <div className="row mt-3">
-                    <div className="col-half">
+                    <div>
                         <div className="edit-heading">Professioal Details</div>
                         <div className="input-group">
                             <div className="col-third">
