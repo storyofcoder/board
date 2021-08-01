@@ -58,8 +58,9 @@ const AddModal = ({ show, onClose, updateList, list, stages }) => {
         _details["id"] = Date.now();
         _details["createdAt"] = Date.now();
         _details["status"] = "active";
+        _details["avatar"] = avatar;
         _details["stage"] = stages[0].id;
-        if (_details["comment"]) _details["comment"] = [_details["comment"]];
+        if (_details["comments"]) _details["comments"] = [_details["comments"]];
         let _list = list;
         _list.push(_details);
         updateList(_list);
@@ -182,7 +183,7 @@ const AddModal = ({ show, onClose, updateList, list, stages }) => {
                         <div className="input-group">
                             <div className="col-12">
                                 <textarea
-                                    onChange={(e) => handleChange("comment", e.target.value)}
+                                    onChange={(e) => handleChange("comments", e.target.value)}
                                 />
                             </div>
                         </div>
