@@ -1,0 +1,60 @@
+.table-container{
+    padding:0 20px !important;
+}
+.table-custom {
+    width:100%;
+}
+
+ td:first-child, .table-custom th:first-child {
+    padding-left: 20px;
+    border-radius: 3px 0 0 3px;
+}
+.table-custom td, .table-custom th {
+    margin-bottom: 10px;
+    box-shadow: 0 1px 0 #ddd;
+    padding: 8px 10px;
+    position: relative;
+    min-width: 85px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 230px;
+}
+.table-custom table {
+    border-spacing: 0 10px;
+    border-collapse: inherit;
+    margin-top: -10px;
+}
+.table-custom th {
+    overflow: hidden;
+    background: #3ec5d1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+}
+.table-custom td {
+    padding: 15px 10px;
+    cursor: pointer;
+    background-color: #F1F3F5 !important;
+}
+.table-custom td, .table-custom th {
+    margin-bottom: 10px;
+    box-shadow: 0 1px 0 #ddd;
+    padding: 8px 10px;
+    position: relative;
+    min-width: 85px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 230px;
+}
+
+.table-custom tr.candidate-list-item td, .table-custom tr.candidate-list-item th {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+.table-custom td:first-child, .table-custom th:first-child {
+    padding-left: 20px;
+    border-radius: 3px 0 0 3px;
+}
+.table-custom tr.candidate-list-item td:first-child, .table-custom tr.candidate-list-item th:first-child {
+    border-left: 1px solid transparent;
+}
